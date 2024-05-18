@@ -39,6 +39,16 @@
         form{
             display: flex;
             flex-direction: column;
+            input{
+                padding: 15px;
+                font-family: var(--first-fonts);
+                font-size: 18px;
+            }
+            select{
+                padding: 15px;
+                font-family: var(--first-fonts);
+                font-size: 18px;
+            }
         }
     } 
     .sendLogin{
@@ -46,3 +56,7 @@
     }   
 }
 
+.stCont{
+    display: flex;
+    justify-content: space-between;
+}
